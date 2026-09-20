@@ -1,0 +1,1 @@
+import {expect,it} from 'vitest';import {findMatches} from '../src/index.js';it('finds normalized text',()=>expect(findMatches('Café','cafe')).toHaveLength(1));
